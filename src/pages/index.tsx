@@ -1,22 +1,24 @@
-import Link from 'next/link'
+import Head from 'next/head'
+import About from './aboutMe'
+import Contact from './contactMe'
+import Main from '../components/main'
+import Projects from './projects'
 
-function Home() {
+
+
+
+export default function Home() {
   return (
-    <ul>
-      <li>
-        <Link href="/">Home</Link>
-      </li>
-      <li>
-        <Link href="/aboutMe">About Me</Link>
-      </li>
-      <li>
-        <Link href="/projects">Projects</Link>
-      </li>
-      <li>
-        <Link href="/contactMe">Contact Me</Link>
-      </li>
-    </ul>
+    <div>
+      <Head>
+        <title>Kyle | Back-End Developer</title>
+        <meta name="description" content="I’m a back-end developer, welcome to my portfolio! I specialise in building and developing apps, which provide a positive user experience" />
+        <link rel="icon" href="/icon.png" />
+      </Head>
+    <Main />
+    <About />
+    <Projects />
+    <Contact />
+    </div>
   )
 }
-
-export default Home
