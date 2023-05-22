@@ -3,7 +3,7 @@ import About from './aboutMe'
 import Contact from './contactMe'
 import Main from '../components/main'
 import Projects from './projects'
-
+import Skills from './skills'
 
 
 
@@ -17,6 +17,7 @@ export default function Home() {
       </Head>
     <Main />
     <About />
+    <Skills />
     <Projects />
     <Contact />
     </div>
