@@ -16,8 +16,8 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='Property Finder'
-            backgroundImg={HackingTheFender}
-            projectUrl='/property'
+            backgroundImg={HackingTheFender} 
+            projectUrl='/HackingTheFender'
             tech='React JS'
           />
           <ProjectItem
