@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+        <p className='text-xl tracking-widest uppercase text-[#308cec]'>
           Contact
         </p>
         <h2 className='py-4'>Get In Touch</h2>
@@ -31,12 +31,12 @@ const Contact = () => {
                 <p>Software Engineer</p>
                 <p className='py-4'>
                   I am available for freelance or full-time positions. Contact
-                  me and let&apos;s talk.
+                  me and let's talk.
                 </p>
               </div>
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
-                <div className='flex items-center justify-between py-4'>
+                <div className='flex items-center space-x-8 py-4'>
                   <a
                     href='https://www.linkedin.com/in/lordmedia/'
                     target='_blank'
@@ -55,15 +55,6 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                  </div>
-                  <Link href='/resume'>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
-                      </div>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -73,7 +64,7 @@ const Contact = () => {
           <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
-                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+                action='https://getform.io/f/897c962e-919e-476d-9901-20aced348963'
                 method='POST'
                 encType='multipart/form-data'
               >
@@ -132,7 +123,7 @@ const Contact = () => {
           <Link href='/'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
-                  className='text-[#5651e5]'
+                  className='text-[#308cec]'
                   size={30}
                 />
               </div>
