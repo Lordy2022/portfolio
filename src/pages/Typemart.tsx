@@ -17,61 +17,61 @@ const Typemart = () => {
         alt='/'
       />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Property Finders</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>Typemart</h2>
+          <h3>TypeScript + JavaScript</h3>
         </div>
       </div>
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
-          <p>Project</p>
-          <h2>Overview</h2>
+        <h2>Overview</h2>
+          <br/>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            <p>Project Overview: The "TypeMart" project, a part of Codecademy's TypeScript coursework, is a practical application aimed at demonstrating the power and utility of TypeScript in modern web development. As an e-commerce app, "TypeMart" provides an excellent opportunity for learners to explore TypeScript's features in the context of a realistic project.
+            </p>
+            <br/>
+            <h3>Features:</h3>
+            <br/>
+            <ol>
+              <li>
+              1. Strong Typing: A central aspect of this project is the use of TypeScript's strong typing to create robust, reliable code. The application uses interfaces and types to define the shape of data within the app, enhancing code readability and predictability.
+              </li>
+              <br/>
+              <li>
+              2. Classes and Objects: The "TypeMart" project employs TypeScript's classes to define components and services, exploring the language's OOP (Object-Oriented Programming) capabilities. This includes understanding concepts like inheritance and encapsulation.
+              </li>
+              <br/>
+              <li>
+              3. Generics: Depending on the project's complexity, it may employ TypeScript's generics to create reusable components and functions, showcasing one of TypeScript's most powerful features.
+              </li>
+              <br/>
+              <li>
+              4. Modules: The application uses TypeScript's module system to organize and structure the code, enhancing its maintainability.
+              </li>
+              <br/>
+              <li>
+              5. Integration with JavaScript Frameworks: The project demonstrates how TypeScript can be used in conjunction with modern JavaScript frameworks, like React or Angular, to build more robust and scalable applications.
+              </li>
+              <br/>
+            </ol>
           </p>
           <a
-            href='https://github.com/fireclint/property-finder'
+            href='https://github.com/Lordy2022/TypeMart-Codecademy-Project'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
-          <a
-            href='https://property-finder-development.web.app/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4'>Demo</button>
-          </a>
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
+        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-1 h-32'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> TypeScript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Zillow API
+                <RiRadioButtonFill className='pr-1' /> JavaScript
               </p>
             </div>
           </div>
