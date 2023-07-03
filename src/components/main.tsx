@@ -20,7 +20,7 @@ const Main = () => {
             I’m focused on building responsive back-end web applications
             integrating back-end technologies.
           </p>
-          <div className='flex items-center space-x-8 justify-centermax-w-[330px] m-auto py-4'>
+          <div className='flex items-center space-x-8 justify-center max-w-[330px] m-auto py-4'>
             <a
               href='https://www.linkedin.com/in/lordmedia/'
               target='_blank'

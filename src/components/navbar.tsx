@@ -22,7 +22,7 @@ const Navbar = () => {
       router.asPath === '/Magic8Ball' ||
       router.asPath === '/Typemart'
     ) {
-      setNavBg('transparent');
+      setNavBg('rgba(45, 45, 45, 1)');
       setLinkColor('#ecf0f3');
     } else {
       setNavBg('#ecf0f3');
