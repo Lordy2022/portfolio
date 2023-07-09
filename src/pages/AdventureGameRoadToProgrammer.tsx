@@ -2,9 +2,9 @@ import Image from 'next/image';
 import React from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
-import HackingTheFenderImg from '../../public/projectImages/HackingTheFender.png'
+import AdventureGameImg from '../../public/projectImages/AdventureGame.png'
 
-const HackingTheFender = () => {
+const AdventureGame = () => {
   return (
     <div className='w-full'>
     <div className='w-screen h-[50vh] relative'>
@@ -13,11 +13,11 @@ const HackingTheFender = () => {
         className='absolute z-1'
         layout='fill'
         objectFit='cover'
-        src={HackingTheFenderImg}
+        src={AdventureGameImg}
         alt='/'
       />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Hacking The Fender</h2>
+          <h2 className='py-2'> Adventure Game - Road to Programmer</h2>
           <h3>Python</h3>
         </div>
       </div>
@@ -27,28 +27,21 @@ const HackingTheFender = () => {
           <h2>Overview</h2>
           <br/>
           <p>
-            <p>"Hacking the Fender" is a Python project developed as part of the Codecademy coursework. It offers learners a unique opportunity to immerse themselves in a fictional cybersecurity incident, simulating a data breach scenario. The project provides practical experience in working with Python's file handling capabilities, data manipulation techniques, and exception handling mechanisms.
-            </p>
-            <br/>
-            <h3>Features:</h3>
-            <br/>
             <ol>
-              <li>
-              1. File I/O Operations: The project involves handling data stored in JSON files, mimicking sensitive user data. Python's built-in `json` module is used extensively for reading and writing JSON data to and from files, which is a common requirement in many real-world applications.
+              <li>"Adventure Game - Road to Progammer" is a Python programme, which I developed for my final Code in Place coursework project, as part of Stanford University's CS106A course.
+                The project is a text-based adventure game, where you choose your own path to become a programmer.
+                The game immerses players in a dynamic narrative and presents the player with different choices they have to make to progress in the game.
               </li>
               <br/>
               <li>
-              2. Data Manipulation: The project requires manipulating and interpreting the data read from the JSON files. Learners will use Python's various data handling capabilities to extract, process, and filter this data, demonstrating Python's strengths as a data manipulation language.
-              </li>
-              <br/>
-              <li>
-              The "Hacking the Fender" project is a hands-on learning experience that allows learners to apply their Python skills in a practical context. Through file operations, data manipulation, and exception handling, students gain a deeper understanding of Python programming and its use in real-world cybersecurity contexts.
+                 I built the code independently, using the Python skills I had the opportunity to develop during the course. 
+                  The game is built using Python's built-in functions, including print(), input(), if/else statements, and functions. 
               </li>
               <br/>
             </ol>
           </p>
           <a
-            href='https://github.com/Lordy2022/Hacking_The_Fender_Project'
+            href='https://github.com/Lordy2022/Adventure-Game-Road-to-Progammer'
             target='_blank'
             rel='noreferrer'
           >
@@ -73,4 +66,4 @@ const HackingTheFender = () => {
   );
 };
 
-export default HackingTheFender;
+export default AdventureGame;

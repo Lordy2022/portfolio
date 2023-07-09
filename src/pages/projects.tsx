@@ -4,6 +4,7 @@ import KelvinWeather from '../../public/projectImages/KelvinWeather.jpg'
 import magicBall8 from '../../public/projectImages/magicBall8.png'
 import Typemart from '../../public/projectImages/Typemart.png'
 import ProjectItem from '../components/ProjectItem';
+import AdventureGameImg from '../../public/projectImages/AdventureGame.png'
 
 const Projects = () => {
   return (
@@ -39,10 +40,10 @@ const Projects = () => {
             tech='TypeScript + JavaScript'
           />
           <ProjectItem
-            title='Adventure Game = Road to Programmer'
-            backgroundImg={Typemart}
-            projectUrl='/Typemart'
-            tech='TypeScript + JavaScript'
+            title='Adventure Game - Road to Programmer'
+            backgroundImg={AdventureGameImg}
+            projectUrl='/AdventureGameRoadToProgrammer'
+            tech='Python'
           />
         </div>
       </div>
